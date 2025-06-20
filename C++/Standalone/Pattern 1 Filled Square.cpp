@@ -9,6 +9,6 @@ int main(){
             cout<<"*";
         }
         cout<<endl;
-    }
+    }  
     return 0;
 }
