@@ -25,3 +25,5 @@ Time Complexities according to the uploaded patterns.
 21. O(N^2)
 22. O(2n-1)^2
 
+
+---------------------------------END-----------------------------------------
