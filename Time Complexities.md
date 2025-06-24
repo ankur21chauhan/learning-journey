@@ -1,3 +1,7 @@
+O(1) = Constant Time
+O(n) = Linear Time 
+
+Time Complexities according to the uploaded patterns.
 1. O(N^2)
 2. O(N^2)
 3. O(N^2)
