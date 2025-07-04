@@ -1,7 +1,0 @@
-1. Figure out the number of lines to be printed and write your outer loop on it.
-
-2. Figure out what is happening at every line and try to connect with outer loop if possible write you inner loop on this basis.
-
-3.  Execute the print statements (when needed).
-
-4. Observe Symmetry. (Optional)

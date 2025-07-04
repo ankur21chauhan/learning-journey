@@ -1,4 +1,0 @@
-Congratualtions You had PASSED the Exam!!
-Result = Pass
-Marks = 99.99
-Grade A
