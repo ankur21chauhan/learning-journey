@@ -1,3 +1,4 @@
 # Who can use these settings?
 These settings are only for LINUX users, for Mac or Windows use GPTs to generate your own tasks.json
+
 ----> [recommended chatbot](https://github.com/copilot) <----
