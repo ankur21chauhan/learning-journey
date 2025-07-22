@@ -1,4 +1,4 @@
-# Learning Journey
+# Learning Journey!
 
 Welcome to my personal learning repository! This project documents my journey as I explore programming concepts, solve problems, and build mini-projects in C++ and Python.
 
