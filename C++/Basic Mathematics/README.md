@@ -6,3 +6,4 @@
 4. Palindrome Number.
 5. Returning the largest number.
 6. Factorial of a number.
+7. Armstrong number.
