@@ -7,3 +7,4 @@
 5. Returning the largest number.
 6. Factorial of a number.
 7. Armstrong number.
+9. Prime Numbers.
