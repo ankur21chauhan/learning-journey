@@ -1,30 +1,51 @@
 #include<bits/stdc++.h>
 using namespace std;
 class A{
-    public:
-        int array1(int arr[], int n){
+    private:
+        int counter(int arr[], int n){
             int count = 0;
             for(int i = 0; i <= n-1; i++){
-                if(arr[i] % 2 != 0){
-                    count++;
+                if(arr[i]%2 == 1){
+                    count++; 
                 }
+
             }
             return count;
+
+        }
+
+    public:
+        void array(int arr[], int n){
+            for(int i = 0; i <= n-1; i++){
+                cin>>arr[i];
+            }
+            
+            int counterOFelements = counter(arr, n);
+
+
+
+            cout<<"Your array is : ";
+
+            for(int i = 0; i <= n-1; i++){
+                cout<<arr[i]<<" ";
+            }
+
+            cout<<endl;
+            cout<<"number of odds are : "<<counterOFelements;
+
+
         }
 };
 
 int main(){
-    int n;
-    cin>>n;
+        int n;
+        cin>>n;
+        int arr[n];
 
-    int arr[n];
+        A var1;
+        var1.array(arr, n);
 
-    for(int i = 0; i <= n-1; i++){
-        cin>>arr[i];
-    }
-
-    A var1;
-    cout<<var1.array1(arr, n);
+        return 0;
 
 
 }
