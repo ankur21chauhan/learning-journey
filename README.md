@@ -10,7 +10,7 @@ This repository contains:
 - Pattern programs and standalone code samples
 
 ## Structure
-- **C++/**: All C++ codes, STL practice, patterns, and standalone programs
+- **C++/**: All C++ codes, STL, Arrays, Mathematics, Hashing, Strings, Recursion, patterns, and standalone programs
 - **Python/**: Python scripts, practice problems, and learning notes
 - **.vscode/**: VS Code workspace settings
 
