@@ -6,9 +6,7 @@ class Solution{
 			if(N==0){
                 return 0;
             }
-            NnumbersSum(N-1);
-            
-            cout<<N<<endl;
+            return N + NnumbersSum(N-1);
 		}
 };
 
