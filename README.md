@@ -34,4 +34,4 @@ This repository contains:
 
 Feel free to fork, star, or contribute!
 
-Happy Learning 🚀
+Happy Learning 🚀.
