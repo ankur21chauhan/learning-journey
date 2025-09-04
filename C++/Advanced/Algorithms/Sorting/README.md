@@ -59,6 +59,5 @@ This folder contains C++ implementations of various sorting algorithms in both p
 12 12 12 32 45 45 54 324 567
 ```
 
-## Author
-
+## Note
 Created for learning and demonstration purposes.
