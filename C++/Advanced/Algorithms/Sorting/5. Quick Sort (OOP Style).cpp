@@ -1,3 +1,9 @@
+/* 
+TC - O(NlogN)
+SC - O(1)  no need of temporary array to store values, as like in merge sort.
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 class Solution{

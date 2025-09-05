@@ -1,3 +1,5 @@
+//TC - O(NlogN)
+//SC - O(N)
 #include<bits/stdc++.h>
 using namespace std;
 void merge(vector<int>& arr, int low, int mid, int high){
