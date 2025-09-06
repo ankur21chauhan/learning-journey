@@ -1,31 +1,30 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-class Solution{
-    public:
-        vector<int> name(vector<int>& arr, int n){
-            int num = -1;
-            for(int i; i <= n-1; i++){
-                if(n == i){
-                    cout<<i;
-                }
+
+class Solution {
+public:
+    int linearSearch(vector<int>& arr, int target) {
+        for (int i = 0; i < arr.size(); i++) {
+            if (arr[i] == target) {   
+                return i;
             }
-            return num;
         }
+        return -1; 
+    }
 };
-int main(){
-    int n;
-    cin>>n;
+
+int main() {
+    int n, target;
+    cin >> n >> target;      
+
     vector<int> arr(n);
-    for(int i = 0; i <= n-1; i++){
-        cin>>arr[i];
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
     }
 
     Solution var1;
-    vector<int> result = var1.name(arr, n);
-    for(int i = 0; i <= n-1; i++){
-        cout<<arr[i];
-    }
-    cout<<endl;
+    int result = var1.linearSearch(arr, target);   
+    cout << result << endl;
 
     return 0;
 }
