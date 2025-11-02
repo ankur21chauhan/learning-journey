@@ -1,1 +1,21 @@
-hello 
+-----------Map----------
+1-->Ankur
+2-->abc
+3-->bcd
+4-->xyz
+4-->xyz
+-----------Unordered Map----------
+4-->xyz
+3-->bcd
+2-->abc
+1-->Ankur
+-----------MultiMap----------
+1-->a
+1-->b
+1-->a
+2-->a
+2-->a
+2-->b
+3-->a
+---Equal_Range Function---
+3-->a

@@ -15,6 +15,7 @@ void SetContainer(){
 
 
     //output
+    cout<<"Set Would be :";
     for(auto i : st){
         cout<<i<<" ";
     }
