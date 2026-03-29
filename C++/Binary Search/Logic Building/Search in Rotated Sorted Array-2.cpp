@@ -58,3 +58,5 @@ int main(){
     }
     return 0;
 }
+//TC = O(log n) in average case
+//TC = O(n / 2) in worst case
