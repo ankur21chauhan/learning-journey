@@ -6,7 +6,7 @@ void Solution(int n){
    }
    
    Solution(n-1);
-   cout<<<<endl;
+   cout<<endl;
    
    
     
