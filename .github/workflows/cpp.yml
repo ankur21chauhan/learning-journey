@@ -1,0 +1,22 @@
+name: C++ All Files Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Install g++
+      run: sudo apt-get update && sudo apt-get install -y g++
+
+    - name: Compile all C++ files
+      run: |
+        for file in $(find . -name "*.cpp"); do
+          echo "Compiling $file"
+          g++ "$file" -o "${file%.cpp}" || exit 1
+        done
